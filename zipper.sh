@@ -1,3 +1,3 @@
-// Este script arma un archivo zip del folder actual sin meter archivos especificos de MacOSX 
+// Este script arma un archivo zip del folder actual sin meter archivos especificos de MacOSX
 
-zip -r -X $nombre-de-archivo-zip
+zip -r -X $nombre-de-archivo-zip $folder-actual -x ".DS_Store"
